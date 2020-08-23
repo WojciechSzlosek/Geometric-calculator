@@ -19,7 +19,7 @@ The calculation of the area of the quadrilateral was difficult as it might have 
 Therefore, the Bretschneider's formula was used in the program.
 
 ## Technologies
-The program was written in C++ using the <cmath> library.
+The program was written in C++ using the 'cmath' library.
 
 ## Examples of program effects
 
