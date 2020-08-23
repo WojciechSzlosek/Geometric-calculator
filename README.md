@@ -23,5 +23,20 @@ The program was written in C++ using the 'cmath' library.
 
 ## Examples of program effects
 
+#### Ex. 1
+```meanwhile
+  
+   // main 'input'
+   
+    Point a, b, c, d;
+    a.setXY(3.38,2.42);
+    b.setXY(11.5,4.58);
+    c.setXY(-4,-7);
+    d.setXY(7.34,2.36);
+
+    Coord mc(a,b,c,d);
+    mc.print();
+```
+
 ## Status
 Complete program (as described), with the possibility of updating with new features in the future.
