@@ -13,14 +13,22 @@ The purpose of this program is to calculate the exact area and perimeter of a pl
 So, more generally: the result of the program is the exact area and perimeter of the figure at n-'vertex points' (where n = {3, 4}) oriented on the Cartesian coordinate system.
 
 ## Mathematical inserts
-Heron's formula was used to calculate the area of the triangle.
-```math
-   Area: S = \sqrt{p(p-a)(p-b)(p-c)},
-   where p = \frac{a+b+c}{2}
-```
 
+##### Heron
+Heron's formula was used to calculate the area of the triangle.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=p&space;=&space;\frac{a&plus;b&plus;c}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p&space;=&space;\frac{a&plus;b&plus;c}{2}" title="p = \frac{a+b+c}{2}" /></a>
+   
+<a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;\sqrt{p(p-a)(p-b)(p-c)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\sqrt{p(p-a)(p-b)(p-c)}" title="S = \sqrt{p(p-a)(p-b)(p-c)}" /></a>
+
+
+##### Bretschneider
 The calculation of the area of the quadrilateral was difficult as it might have floating point coordinates and an undefined orientation on the surface (e.g. the strange figure in Example No. 1 below).
 Therefore, the Bretschneider's formula was used in the program.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=s&space;=&space;\frac{a&plus;b&plus;c&plus;d}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?s&space;=&space;\frac{a&plus;b&plus;c&plus;d}{2}" title="s = \frac{a+b+c+d}{2}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;\sqrt{(s-a)(s-b)(s-c)(s-d)-abcd&space;\cdot&space;\cos^{2}(\frac{\alpha&space;&plus;&space;\gamma&space;}{2})&space;}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\sqrt{(s-a)(s-b)(s-c)(s-d)-abcd&space;\cdot&space;\cos^{2}(\frac{\alpha&space;&plus;&space;\gamma&space;}{2})&space;}" title="S = \sqrt{(s-a)(s-b)(s-c)(s-d)-abcd \cdot \cos^{2}(\frac{\alpha + \gamma }{2}) }" /></a>
 
 ## Technologies
 The program was written in C++ using the 'cmath' library.
