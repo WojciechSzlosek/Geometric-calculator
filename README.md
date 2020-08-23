@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Mathematical inserts](#mathematical-inserts)
 * [Technologies](#technologies)
-* [Examples of program effects](#examples)
+* [Examples of program effects](#examples-of-program-effects)
 * [Status](#status)
 
 ## General info
