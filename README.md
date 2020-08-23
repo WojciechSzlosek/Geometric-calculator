@@ -25,7 +25,6 @@ The program was written in C++ using the 'cmath' library.
 
 #### Ex. 1
 ```meanwhile
-  
    // main 'input'
    
     Point a, b, c, d;
