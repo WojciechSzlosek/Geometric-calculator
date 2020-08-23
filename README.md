@@ -57,7 +57,7 @@ The program was written in C++ using the 'cmath' library.
     Coord mc(e,f,g,h);
     mc.print();
 ```
-![ex2](examples/ex1.png)
+![ex2](examples/ex2.png)
 ```meanwhile
    // output
    ----------------------
