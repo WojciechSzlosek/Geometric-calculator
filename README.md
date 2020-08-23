@@ -14,7 +14,10 @@ So, more generally: the result of the program is the exact area and perimeter of
 
 ## Mathematical inserts
 
-##### Heron
+#### Heron
+
+![mathimg1](examples/math1.png)
+
 Heron's formula was used to calculate the area of the triangle.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=p&space;=&space;\frac{a&plus;b&plus;c}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p&space;=&space;\frac{a&plus;b&plus;c}{2}" title="p = \frac{a+b+c}{2}" /></a>
@@ -22,7 +25,11 @@ Heron's formula was used to calculate the area of the triangle.
 <a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;\sqrt{p(p-a)(p-b)(p-c)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\sqrt{p(p-a)(p-b)(p-c)}" title="S = \sqrt{p(p-a)(p-b)(p-c)}" /></a>
 
 
-##### Bretschneider
+
+#### Bretschneider
+
+![mathimg2](examples/math2.png)
+
 The calculation of the area of the quadrilateral was difficult as it might have floating point coordinates and an undefined orientation on the surface (e.g. the strange figure in Example No. 1 below).
 Therefore, the Bretschneider's formula was used in the program.
 
