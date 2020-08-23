@@ -2,7 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Mathematical inserts] (#mathematical-inserts)
+* [Mathematical inserts](#mathematical-inserts)
 * [Technologies](#technologies)
 * [Examples of program effects](#examples)
 * [Status](#status)
