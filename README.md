@@ -36,6 +36,12 @@ The program was written in C++ using the 'cmath' library.
     Coord mc(a,b,c,d);
     mc.print();
 ```
+```cpp
+   ----------------------
+   Perimeter: L = 46.4148
+   Area: S = 11.4018
+   ----------------------
+```
 
 ## Status
 Complete program (as described), with the possibility of updating with new features in the future.
