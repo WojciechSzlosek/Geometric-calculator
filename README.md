@@ -14,6 +14,10 @@ So, more generally: the result of the program is the exact area and perimeter of
 
 ## Mathematical inserts
 Heron's formula was used to calculate the area of the triangle.
+```math
+   Area: S = \sqrt{p(p-a)(p-b)(p-c)},
+   where p = \frac{a+b+c}{2}
+```
 
 The calculation of the area of the quadrilateral was difficult as it might have floating point coordinates and an undefined orientation on the surface (e.g. the strange figure in Example No. 1 below).
 Therefore, the Bretschneider's formula was used in the program.
