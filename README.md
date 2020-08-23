@@ -42,7 +42,7 @@ The program was written in C++ using the 'cmath' library.
    Area: S = 11.4018
    ----------------------
 ```
-![ex1](Examples/ex1.png)
+![ex1](examples/ex1.png)
 
 ## Status
 Complete program (as described), with the possibility of updating with new features in the future.
