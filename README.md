@@ -48,13 +48,13 @@ The program was written in C++ using the 'cmath' library.
 ```cpp
    // main 'input'
    
-    Point e, f, g, h;
-    e.setXY(-5,4);
-    f.setXY(-5,0);
-    g.setXY(1.33,2.39);
-    h.setXY(0,4);
+    Point a, b, c, d;
+    a.setXY(-5,4);
+    b.setXY(-5,0);
+    c.setXY(1.33,2.39);
+    d.setXY(0,4);
 
-    Coord mc(e,f,g,h);
+    Coord mc(a,b,c,d);
     mc.print();
 ```
 ![ex2](examples/ex2.png)
