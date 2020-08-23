@@ -15,6 +15,5 @@ int main() {
     Coord mc(a,b,c,d);
     mc.print();
 
-
     return 0;
 }
