@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Coord.cpp
+cmath
+-
+Coord.h
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Coord.h
+
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Coord.h
+Point.cpp
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Point.cpp
+
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Point.cpp
+Point.h
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Point.h
+
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Point.h
+
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/main.cpp
+iostream
+-
+Coord.cpp
+/Users/wojciechszlosek/Desktop/C++/Geometric calculator/Coord.cpp
+
