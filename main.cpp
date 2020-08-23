@@ -3,14 +3,13 @@
 
 int main() {
 
-    Point b;
-    Point c;
-    Point d;
-    b.setXY (-3.7,-1.21);
-    c.setXY(4.73,5.33);
-    d.setXY(-5,0);
+    Point a, b, c, d;
+    a.setXY(3.38,2.42);
+    b.setXY(11.5,4.58);
+    c.setXY(-4,-7);
+    d.setXY(7.34,2.36);
 
-    Coord mc(b,c,d);
+    Coord mc(a,b,c,d);
     mc.print(); 
 
     return 0;
