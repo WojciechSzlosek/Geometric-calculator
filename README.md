@@ -44,6 +44,27 @@ The program was written in C++ using the 'cmath' library.
    Area: S = 11.4018
    ----------------------
 ```
+#### Ex. 2
+```cpp
+   // main 'input'
+   
+    Point e, f, g, h;
+    e.setXY(-5,4);
+    f.setXY(-5,0);
+    g.setXY(1.33,2.39);
+    h.setXY(0,4);
+
+    Coord mc(e,f,g,h);
+    mc.print();
+```
+![ex2](examples/ex1.png)
+```meanwhile
+   // output
+   ----------------------
+   Perimeter: L = 17.8545
+   Area: S = 16.685
+   ----------------------
+```
 
 ## Status
 Complete program (as described), with the possibility of updating with new features in the future.
