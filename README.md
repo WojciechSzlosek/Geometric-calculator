@@ -24,7 +24,7 @@ The program was written in C++ using the 'cmath' library.
 ## Examples of program effects
 
 #### Ex. 1
-```cpp
+```meanwhile
    // main 'input'
    
     Point a, b, c, d;
