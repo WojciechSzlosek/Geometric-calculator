@@ -5,8 +5,6 @@
 #include <cmath>
 #include "Coord.h"
 
-using namespace std;
-
 Coord::Coord(Point _A, Point _B) {
 
     A = _A;
@@ -113,16 +111,16 @@ double Coord::area() {
         return area;
     }
 
-    cout<<"The object is not a polygon"<<endl;
+    std::cout << "The object is not a polygon" << std::endl;
 }
 
 void Coord::print() {
 
-    cout<<"----------------------"<<endl;
-    cout<<"Perimeter: L = "<<perimeter()<<endl;
+    std::cout << "----------------------" << std::endl;
+    std::cout << "Perimeter: L = " << perimeter() << std::endl;
 
     if(points == 3 || points == 4)
-        cout<<"Area: S = "<<area()<<endl;
+        std::cout << "Area: S = " << area() << std::endl;
 
-    cout<<"----------------------"<<endl;
+    std::cout << "----------------------" << std::endl;
 }
