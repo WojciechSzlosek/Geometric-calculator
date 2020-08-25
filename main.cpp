@@ -10,11 +10,7 @@ int main() {
     d.setXY(7.34,2.36);
 
     Coord mc(a,b,c,d);
-<<<<<<< HEAD
-    mc.print(); 
-=======
     mc.print();
->>>>>>> fix namespace
 
     return 0;
 }
